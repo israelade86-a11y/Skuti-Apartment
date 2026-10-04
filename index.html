@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PrimeHomes Realty</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="container nav">
+
+            <a href="#home" class="logo">
+                Prime<span>Homes</span>
+            </a>
+
+            <nav id="mainNav">
+                <a href="#home">Home</a>
+                <a href="#properties">Properties</a>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="contact.html" class="contact-btn">
+                Contact Agent
+            </a>
+
+            <button class="menu-btn" id="menuBtn">
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero" id="home">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <p class="intro">
+                        REAL ESTATE MADE SIMPLE
+                    </p>
+
+                    <h1>
+                        Find a property that feels like home.
+                    </h1>
+
+                    <p>
+                        We help you find houses, apartments and
+                        commercial properties that match your needs
+                        and budget.
+                    </p>
+
+                    <a href="#properties" class="main-btn">
+                        View Properties
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SEARCH -->
+
+        <section class="search-area">
+
+            <div class="container">
+
+                <form class="search-box" id="searchForm">
+
+                    <div>
+
+                        <label for="location">
+                            Location
+                        </label>
+
+                        <select id="location">
+
+                            <option value="">
+                                Any location
+                            </option>
+
+                            <option value="Lagos">
+                                Lagos
+                            </option>
+
+                            <option value="Abuja">
+                                Abuja
+                            </option>
+
+                            <option value="Port Harcourt">
+                                Port Harcourt
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="type">
+                            Property Type
+                        </label>
+
+                        <select id="type">
+
+                            <option value="">
+                                Any type
+                            </option>
+
+                            <option value="House">
+                                House
+                            </option>
+
+                            <option value="Apartment">
+                                Apartment
+                            </option>
+
+                            <option value="Office">
+                                Office
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="purpose">
+                            Purpose
+                        </label>
+
+                        <select id="purpose">
+
+                            <option value="">
+                                Buy or Rent
+                            </option>
+
+                            <option value="Sale">
+                                For Sale
+                            </option>
+
+                            <option value="Rent">
+                                For Rent
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <button type="submit">
+                        Search
+                    </button>
+
+                </form>
+
+
+                <p id="searchMessage"></p>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROPERTIES -->
+
+        <section class="properties" id="properties">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <div>
+
+                        <p class="intro">
+                            OUR PROPERTIES
+                        </p>
+
+                        <h2>
+                            Featured properties
+                        </h2>
+
+                    </div>
+
+                    <a href="#properties">
+                        View all
+                    </a>
+
+                </div>
+
+
+                <div class="property-list">
+
+
+                    <!-- PROPERTY 1 -->
+
+                    <a href="property.html"
+                       class="property"
+                       data-location="Lagos"
+                       data-type="House"
+                       data-purpose="Sale">
+
+                        <div class="property-image property-one">
+
+                            <span>
+                                For Sale
+                            </span>
+
+                        </div>
+
+
+                        <div class="property-info">
+
+                            <p class="property-location">
+                                Lekki Phase 1, Lagos
+                            </p>
+
+                            <h3>
+                                4 Bedroom Detached House
+                            </h3>
+
+                            <p class="property-price">
+                                ₦85,000,000
+                            </p>
+
+                            <div class="details">
+
+                                <span>
+                                    4 Bedrooms
+                                </span>
+
+                                <span>
+                                    4 Bathrooms
+                                </span>
+
+                                <span>
+                                    450 sqm
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- PROPERTY 2 -->
+
+                    <a href="apartment.html"
+                       class="property"
+                       data-location="Port Harcourt"
+                       data-type="Apartment"
+                       data-purpose="Rent">
+
+                        <div class="property-image property-two">
+
+                            <span class="rent">
+                                For Rent
+                            </span>
+
+                        </div>
+
+
+                        <div class="property-info">
+
+                            <p class="property-location">
+                                GRA, Port Harcourt
+                            </p>
+
+                            <h3>
+                                3 Bedroom Modern Apartment
+                            </h3>
+
+                            <p class="property-price">
+                                ₦3,500,000 / year
+                            </p>
+
+                            <div class="details">
+
+                                <span>
+                                    3 Bedrooms
+                                </span>
+
+                                <span>
+                                    3 Bathrooms
+                                </span>
+
+                                <span>
+                                    180 sqm
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- PROPERTY 3 -->
+
+                    <a href="family-home.html"
+                       class="property"
+                       data-location="Abuja"
+                       data-type="House"
+                       data-purpose="Sale">
+
+                        <div class="property-image property-three">
+
+                            <span>
+                                For Sale
+                            </span>
+
+                        </div>
+
+
+                        <div class="property-info">
+
+                            <p class="property-location">
+                                Wuse 2, Abuja
+                            </p>
+
+                            <h3>
+                                5 Bedroom Family Home
+                            </h3>
+
+                            <p class="property-price">
+                                ₦120,000,000
+                            </p>
+
+                            <div class="details">
+
+                                <span>
+                                    5 Bedrooms
+                                </span>
+
+                                <span>
+                                    4 Bathrooms
+                                </span>
+
+                                <span>
+                                    520 sqm
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section class="about" id="about">
+
+            <div class="container about-grid">
+
+                <div class="about-image"></div>
+
+
+                <div class="about-text">
+
+                    <p class="intro">
+                        ABOUT US
+                    </p>
+
+                    <h2>
+                        Helping people make better property decisions.
+                    </h2>
+
+                    <p>
+                        PrimeHomes Realty is a property company
+                        focused on helping individuals and businesses
+                        find, buy, rent and manage properties.
+                    </p>
+
+                    <p>
+                        Our team works with property owners and clients
+                        to make the process straightforward from the
+                        first enquiry to the final agreement.
+                    </p>
+
+                    <a href="contact.html" class="main-btn">
+                        Speak With Us
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SERVICES -->
+
+        <section class="services" id="services">
+
+            <div class="container">
+
+                <div class="section-title center">
+
+                    <div>
+
+                        <p class="intro">
+                            WHAT WE DO
+                        </p>
+
+                        <h2>
+                            Our services
+                        </h2>
+
+                    <div>
+
+                </div>
+
+
+                <div class="service-list">
+
+                    <div class="service">
+
+                        <h3>
+                            Property Sales
+                        </h3>
+
+                        <p>
+                            Find residential and commercial
+                            properties available for purchase.
+                        </p>
+
+                    </div>
+
+
+                    <div class="service">
+
+                        <h3>
+                            Property Rentals
+                        </h3>
+
+                        <p>
+                            We help clients find suitable rental
+                            properties in different locations.
+                        </p>
+
+                    </div>
+
+
+                    <div class="service">
+
+                        <h3>
+                            Property Management
+                        </h3>
+
+                        <p>
+                            We help property owners manage their
+                            buildings and tenants.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section class="contact" id="contact">
+
+            <div class="container contact-box">
+
+                <div>
+
+                    <p class="intro">
+                        GET IN TOUCH
+                    </p>
+
+                    <h2>
+                        Looking for a property?
+                    </h2>
+
+                    <p>
+                        Tell us what you're looking for and one
+                        of our agents will get back to you.
+                    </p>
+
+                </div>
+
+
+                <a href="contact.html" class="main-btn">
+                    Contact Us
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <div>
+
+                <a href="#home" class="logo">
+                    Prime<span>Homes</span>
+                </a>
+
+                <p>
+                    Real estate solutions you can trust.
+                </p>
+
+            </div>
+
+
+            <p>
+                © 2026 PrimeHomes Realty.
+                All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
